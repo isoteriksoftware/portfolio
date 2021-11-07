@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Engineering Blog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/tachyons.min.css">
+    <link rel="stylesheet" href="Css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .cpuside{
+            background-image: url('img/robotics.jpg');
+        }
+        .gpuside{
+            background-image: url('img/mobile.jpg');
+        }
+        .secside{
+            background-image: url('img/security.jpg');
+        }
+        .hdside{
+            background-image: url('img/hardware.jpg');
+        }
+        .indexbanner{
+            background-image: url("img/cover.jpg");
+        }
+        .sj{
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="flex justify-between bb b--white-10 black--bg t8">
+        <a class="f3 link white-70 hover-white no-underline flex items-center pa3 fjalla" href="index.html">
+            Computer Engineering Blog
+        </a>
+        <div class="flex-grow pa3 flex items-center">
+            <a class="f3 link dib white dim mr3 fjalla" href="robotics.html">Robotics</a>
+            <a class="f3 link dib white dim mr3 fjalla" href="iot.html">IoT</a>
+            <a class="f3 link dib white dim mr3 fjalla" href="hardware.html">Hardware</a>
+            <a class="f3 link dib white dim mr3 fjalla" href="security.html">Security</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="indexbanner">
+        <div class="jumbotxt">
+            <span class="f-headline-l fjalla white b--white-10 pa3">
+                Computer Engineering
+            </span>
+        </div>
+    </div>
+    <!--cpu&gpu-->
+    <div class="vh-100 black--bg flex flex-column sj">
+        
+        <div class="flex flex-wrap">
+            <div class="indexbox flex cpuside" style="height: 450px">
+                <a href="robotics.html" class="indexdirect f-6 white link fjalla">
+                    Robotics
+                </a>
+            </div>
+            <div class="indexbox flex gpuside" style="height: 450px">
+                <a href="iot.html" class="indexdirect f-6 white link fjalla">
+                    IoT
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="indexbox flex hdside" style="height: 450px">
+                <a href="hardware.html" class="indexdirect f-6 white link fjalla">
+                    Hardware
+                </a>
+            </div>
+            <div class="indexbox flex secside" style="height: 450px">
+                <a href="security.html" class="indexdirect f-6 white link fjalla">
+                    Security
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
