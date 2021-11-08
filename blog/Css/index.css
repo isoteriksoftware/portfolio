@@ -30,8 +30,12 @@ nav{
 .ps5 {padding-left: 4rem;padding-right: 4rem;}
 
 .jumbotxt{
-    line-height: 100vh;
+    /* line-height: 100vh; */
+    height: 100%;
     vertical-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 3rem 1rem;
+    color: white;
 }
 .cgptext{
     width: 100%;
@@ -128,4 +132,28 @@ nav{
 }
 .f-4 {
     font-size: 2rem;
+}
+.f-headline-l {
+    font-size: 3rem;
+    /* color: rgba(0,0,0,0.8); */
+}
+.description {
+    font-size: 1.3rem;
+    line-height: 35px;
+}
+.contact-btn {
+    background-color: #357edd;
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem 3rem;
+    border-radius: 4rem;
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    transition: .2s ease-in-out;
+}
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+    transition: .2s ease-in-out;
 }
